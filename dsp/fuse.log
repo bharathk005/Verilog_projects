@@ -1,0 +1,51 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "B:/Workspace/xilinx/DSP/t_processor_isim_beh.exe" -prj "B:/Workspace/xilinx/DSP/t_processor_beh.prj" "work.t_processor" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "B:/Workspace/xilinx/DSP/ipcore_dir/cordic_v4_0.v" into library work
+Analyzing Verilog file "B:/Workspace/xilinx/DSP/butterfly.v" into library work
+Analyzing Verilog file "B:/Workspace/xilinx/DSP/ipcore_dir/Ram_mem.v" into library work
+Analyzing Verilog file "B:/Workspace/xilinx/DSP/ALU.v" into library work
+Analyzing Verilog file "B:/Workspace/xilinx/DSP/processor.v" into library work
+Analyzing Verilog file "B:/Workspace/xilinx/DSP/t_processor.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+WARNING:HDLCompiler:329 - "B:/Workspace/xilinx/DSP/butterfly.v" Line 30: Target <sin> of concurrent assignment or output port connection should be a net type.
+Completed static elaboration
+Fuse Memory Usage: 162180 KB
+Fuse CPU Usage: 468 ms
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module Ram_mem
+Compiling module GND
+Compiling module VCC
+Compiling module FD
+Compiling module FDRE
+Compiling module LUT3(INIT=8'b01100100)
+Compiling module LUT4(INIT=16'b1110110010100000)
+Compiling module MUXF5
+Compiling module INV
+Compiling module LUT4_L(INIT=16'b1101100011100100...
+Compiling module LUT3_D(INIT=8'b10000001)
+Compiling module LUT4_D(INIT=16'b1000000010101110...
+Compiling module LUT2(INIT=4'b1001)
+Compiling module MUXCY
+Compiling module XORCY
+Compiling module LUT1(INIT=2'b10)
+Compiling module cordic_v4_0
+Compiling module butterfly
+Compiling module ALU
+Compiling module processor
+Compiling module t_processor
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 36 Verilog Units
+Built simulation executable B:/Workspace/xilinx/DSP/t_processor_isim_beh.exe
+Fuse Memory Usage: 171372 KB
+Fuse CPU Usage: 843 ms

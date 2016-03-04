@@ -1,0 +1,13 @@
+# Output products list for <cordic_v4_0>
+cordic_v4_0.asy
+cordic_v4_0.gise
+cordic_v4_0.ngc
+cordic_v4_0.v
+cordic_v4_0.veo
+cordic_v4_0.xco
+cordic_v4_0.xise
+cordic_v4_0\doc\cordic_ds249.pdf
+cordic_v4_0\doc\cordic_v4_0_vinfo.html
+cordic_v4_0_flist.txt
+cordic_v4_0_readme.txt
+cordic_v4_0_xmdf.tcl
